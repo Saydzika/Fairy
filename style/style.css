@@ -39,7 +39,7 @@ div.namepage {
   form {
     text-align: center;
   }
-.fog2 {
+.fog1 {
   background: center center;  
     position: absolute;
     top: 0;
@@ -47,7 +47,7 @@ div.namepage {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-size: 100%;
+    background-size: absolute;
 
 }
 .fog::before,
