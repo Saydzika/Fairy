@@ -51,6 +51,10 @@ div.namepage {
 
 }
 .fog1  {
+    border: 2px solid #000;
+  position: absolute;
+  top: 50px;
+  left: 50px;
     content: "";
     position: 100%;
     top: 0;
