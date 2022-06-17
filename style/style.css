@@ -70,12 +70,12 @@ div.namepage {
 }
 .fog::before, 
 .fog div::before {
-    background-image: url("/images/fog-1.png");
+    background-image: url("./images/fog-1.png");
     animation: fogmove 20s linear 0s infinite;
 }
 .fog::after, 
 .fog div::after {
-    background-image: url("/images/fog-2.png");
+    background-image: url("./images/fog-2.png");
     animation: fogmove 10s linear 0s infinite;
 }
 @keyframes fogmove {
