@@ -68,10 +68,10 @@ div.namepage {
 .fog div::after    {
     left: 100%;
 }
-.fog {
+.fog1 {
     animation: fogmove 20s linear 0s infinite;
 }
-.fog {
+.fog2 {
      animation: fogmove 10s linear 0s infinite;
 }
 @keyframes fogmove {
