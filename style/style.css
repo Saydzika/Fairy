@@ -73,8 +73,7 @@ div.namepage {
     background-image: url("images/fog1.png");
     animation: fogmove 20s linear 0s infinite;
 }
-.fog::after, 
-.fog div::after {
+.fog {
     background-image: url("images/fog2.png");
     animation: fogmove 10s linear 0s infinite;
 }
