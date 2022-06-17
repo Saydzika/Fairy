@@ -94,3 +94,6 @@ div.namepage {
         transform: translate3d(-100%, 0, 0);
     }
 }
+div.fogs {
+position: relative;
+}
