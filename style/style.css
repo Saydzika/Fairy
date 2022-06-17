@@ -68,14 +68,11 @@ div.namepage {
 .fog div::after    {
     left: 100%;
 }
-.fog::before, 
-.fog div::before {
-    background-image: url("images/fog1.png");
+.fog {
     animation: fogmove 20s linear 0s infinite;
 }
 .fog {
-    background-image: url("images/fog2.png");
-    animation: fogmove 10s linear 0s infinite;
+     animation: fogmove 10s linear 0s infinite;
 }
 @keyframes fogmove {
     from {
