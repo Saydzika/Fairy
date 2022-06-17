@@ -52,7 +52,7 @@ div.namepage {
 }
 .fog1  {
     content: "";
-    position: absolute;
+    position: 100%;
     top: 0;
     left: 0;
     height: 100%;
@@ -63,7 +63,7 @@ div.namepage {
 }
 .fog2  {
     content: "";
-    position: absolute;
+    position: 100%;
     top: 0;
     left: 0;
     height: 100%;
