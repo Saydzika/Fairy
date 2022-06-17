@@ -39,7 +39,7 @@ div.namepage {
   form {
     text-align: center;
   }
-.fog1 {
+.fog2 {
   background: center center;  
     position: absolute;
     top: 0;
@@ -47,13 +47,21 @@ div.namepage {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-size: absolute;
+    background-size: 100%;
 
 }
-.fog::before,
-.fog::after,
-.fog div::before, 
-.fog div::after {
+.fog1  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+.fog2  {
     content: "";
     position: absolute;
     top: 0;
@@ -68,10 +76,10 @@ div.namepage {
 .fog div::after    {
     left: 100%;
 }
-.fog1 {
+.fog2 {
     animation: fogmove 20s linear 0s infinite;
 }
-.fog2 {
+.fog1 {
      animation: fogmove 10s linear 0s infinite;
 }
 @keyframes fogmove {
